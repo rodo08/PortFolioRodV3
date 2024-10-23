@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("./base/base.css");
-/* home */
-@import url("./pages/home/homeAnimations.css");
-@import url("./pages/home/homeLayout.css");
-@import url("./pages/home/homeNavbar.css");
-@import url("./pages/home/homeProfile.css");
-@import url("./pages/home/homeHeroSection.css");
+/* pages */
+
 @import url("./pages/home/home.css");
-@import url("./pages/home/homeButtons.css");
