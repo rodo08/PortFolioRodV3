@@ -1,0 +1,30 @@
+.profile {
+  position: relative;
+}
+
+.featured {
+  position: absolute;
+  background: transparent;
+  height: 31vw;
+  width: 31vw;
+  border: 8px solid var(--primary);
+  border-radius: 50%;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  animation: rotation 12s ease-in infinite;
+}
+
+.featured span {
+  position: absolute;
+  font-size: 1.7vw;
+  font-weight: 900;
+  color: var(--primary);
+  width: 28vw;
+  padding: 5px 0;
+  text-align: center;
+  background: linear-gradient(to right, transparent 40%, var(--light) 40%);
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(calc(90deg * var(--i)));
+}

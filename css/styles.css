@@ -1,18 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
-@import url("./pages/home.css");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-  scroll-behavior: smooth;
-}
-
-:root {
-  --primary: #6f45e5;
-  --light: #fff;
-  --dark: #00172d;
-  --rgba: rgba(0, 0, 0, 0.2);
-}
+@import url("./base/base.css");
+/* home */
+@import url("./pages/home/homeAnimations.css");
+@import url("./pages/home/homeLayout.css");
+@import url("./pages/home/homeNavbar.css");
+@import url("./pages/home/homeProfile.css");
+@import url("./pages/home/homeHeroSection.css");
+@import url("./pages/home/home.css");
+@import url("./pages/home/homeButtons.css");

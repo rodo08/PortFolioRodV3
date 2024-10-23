@@ -1,0 +1,40 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10vw;
+  height: 80px;
+  line-height: 80px;
+  z-index: 999;
+  transition: 0.3s ease;
+}
+
+nav .logo {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  overflow: hidden;
+}
+
+ul li a {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 0 1.2vw;
+  color: #fff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
