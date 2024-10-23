@@ -1,0 +1,25 @@
+nav.active {
+  background-color: var(--dark);
+  height: 60px;
+  line-height: 60px;
+}
+
+nav.active .logo span {
+  color: var(--light);
+}
+
+nav.active ul li a {
+  color: var(--light);
+}
+
+nav.active ul li a:hover {
+  transform: translateY(-60px);
+}
+
+nav.active ul li:hover::before {
+  background: var(--light);
+}
+
+nav.active .toggle i.uil {
+  color: var(--light);
+}

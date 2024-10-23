@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #6f45e5;
+  --light: #fff;
+  --dark: #00172d;
+  --rgba: rgba(0, 0, 0, 0.2);
+}
