@@ -49,3 +49,45 @@
   padding: 0 1vw;
   font-size: 1.5vw;
 }
+
+.form {
+  position: relative;
+  margin-top: -10vw;
+  z-index: 20;
+}
+
+.form form {
+  padding: 60px 0;
+}
+
+form .usernames {
+  display: flex;
+  gap: 20px;
+}
+
+form .entrybox {
+  width: 100%;
+}
+
+.entrybox input,
+.entrybox textarea,
+.submit {
+  width: 100%;
+  margin: 10px 0;
+  outline: none;
+  font-size: 1.2vw;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 15px;
+  resize: vertical;
+  background: var(--rgba);
+  color: #222;
+}
+
+.submit {
+  position: relative;
+  background: var(--primary);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
