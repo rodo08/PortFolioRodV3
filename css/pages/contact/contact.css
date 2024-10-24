@@ -1,0 +1,51 @@
+.contact .wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactinfo {
+  width: 40vw;
+  margin-top: -20vw;
+}
+
+.contactinfo h1 {
+  color: var(--dark);
+  font-size: 2.5vw;
+  letter-spacing: 1vw;
+  text-transform: capitalize;
+}
+
+.contactinfo .textinfo {
+  position: relative;
+  display: flex;
+  margin-left: 3vw;
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin-top: 3.5vw;
+  color: var(--dark);
+  height: 1vw;
+  line-height: 1.5vw;
+}
+
+.contactinfo .textinfo::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background: var(--primary);
+  height: 3px;
+  width: 4vw;
+  left: 4vw;
+  bottom: -2vw;
+}
+
+.contactinfo .textinfo:last-child::after {
+  display: none;
+}
+
+.contact .textinfo i {
+  color: var(--primary);
+  padding: 0 1vw;
+  font-size: 1.5vw;
+}
