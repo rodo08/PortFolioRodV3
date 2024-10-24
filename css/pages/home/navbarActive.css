@@ -13,7 +13,7 @@ nav.active ul li a {
 }
 
 nav.active ul li a:hover {
-  transform: translateY(-60px);
+  transform: translateY(-30px);
 }
 
 nav.active ul li:hover::before {
