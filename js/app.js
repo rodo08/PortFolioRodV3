@@ -20,3 +20,18 @@ window.addEventListener("scroll", () => {
     scrollToTop.classList.remove("active");
   }
 });
+
+//toggle light modes icons
+const moon = document.querySelector(".uil-moon");
+const sun = document.querySelector(".uil-sun");
+
+moon.addEventListener("click", () => {
+  document.body.classList.add("darkmode");
+  moon.style.display = "none";
+  sun.style.display = "block";
+});
+sun.addEventListener("click", () => {
+  document.body.classList.remove("darkmode");
+  sun.style.display = "none";
+  moon.style.display = "block";
+});
