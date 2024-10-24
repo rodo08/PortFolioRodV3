@@ -54,7 +54,7 @@ ul li a {
 }
 
 ul li a:hover {
-  transform: translateY(-80px);
+  transform: translateY(-30px);
 }
 
 ul li::before {
