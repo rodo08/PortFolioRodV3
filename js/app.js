@@ -38,3 +38,26 @@ sun.addEventListener("click", () => {
   sun.style.display = "none";
   moon.style.display = "block";
 });
+
+//color picker
+const colorPicker = document.querySelectorAll(".colorpicker");
+
+colorPicker[0].addEventListener("click", () => {
+  document.body.classList.add("color1");
+  document.body.classList.remove("color2", "color3", "color4");
+});
+
+colorPicker[1].addEventListener("click", () => {
+  document.body.classList.add("color2");
+  document.body.classList.remove("color1", "color3", "color4");
+});
+
+colorPicker[2].addEventListener("click", () => {
+  document.body.classList.add("color3");
+  document.body.classList.remove("color1", "color2", "color4");
+});
+
+colorPicker[3].addEventListener("click", () => {
+  document.body.classList.add("color4");
+  document.body.classList.remove("color1", "color2", "color3");
+});

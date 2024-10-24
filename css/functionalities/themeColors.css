@@ -83,3 +83,19 @@
 .theme-colors .colorpicker:nth-child(4)::after {
   background-color: #1284a3;
 }
+
+.color1 {
+  --primary: #6f45e5;
+}
+
+.color2 {
+  --primary: #72cc50;
+}
+
+.color3 {
+  --primary: #ed810e;
+}
+
+.color4 {
+  --primary: #1284a3;
+}
