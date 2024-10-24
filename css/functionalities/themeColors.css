@@ -1,0 +1,58 @@
+.theme-colors {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 15vw;
+  z-index: 999;
+}
+
+.theme-colors .colorpicker {
+  display: block;
+  position: relative;
+  height: 3vw;
+  width: 100%;
+  margin: 15px 0;
+  background: var(--dark);
+  border: 2px solid var(--light);
+  cursor: pointer;
+  transform: rotate(-25deg) translate(12vw, 0);
+  transition: 0.3s ease;
+}
+
+.theme-colors .colorpicker:hover {
+  transform: rotate(-25deg) translate(10vw, 0vw);
+}
+
+.theme-colors h2 {
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  rotate: -90deg;
+  letter-spacing: 2px;
+  text-wrap: nowrap;
+  position: relative;
+  display: block;
+  top: 150px;
+  right: -100px;
+  opacity: 1;
+  pointer-events: none;
+  transition: 0.4s ease-in;
+}
+
+.theme-colors h2 i {
+  display: inline-block;
+  position: relative;
+  font-size: 2vw;
+  top: 5px;
+  opacity: 0.3;
+  animation: popup 2s ease-in-out infinite;
+}
+
+@keyframes popup {
+  50% {
+    transform: translate(20px);
+    scale: 1.2;
+    opacity: 1;
+  }
+}
