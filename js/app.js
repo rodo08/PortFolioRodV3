@@ -1,12 +1,15 @@
 "use strict";
 //top bar background after scroll
 const navbar = document.querySelector("nav");
+const themeHeading = document.querySelector(".theme-colors h2");
 
 window.addEventListener("scroll", () => {
   if (scrollY > 30) {
     navbar.classList.add("active");
+    themeHeading.classList.add("active");
   } else {
     navbar.classList.remove("active");
+    themeHeading.classList.remove("active");
   }
 });
 

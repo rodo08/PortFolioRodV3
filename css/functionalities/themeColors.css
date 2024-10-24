@@ -40,6 +40,10 @@
   transition: 0.4s ease-in;
 }
 
+.theme-colors h2.active {
+  opacity: 0;
+}
+
 .theme-colors h2 i {
   display: inline-block;
   position: relative;
@@ -51,8 +55,31 @@
 
 @keyframes popup {
   50% {
-    transform: translate(20px);
+    transform: translateX(20px);
     scale: 1.2;
     opacity: 1;
   }
+}
+
+.theme-colors .colorpicker::after {
+  position: absolute;
+  content: "";
+  height: 2.2vw;
+  width: 2.2vw;
+  left: 0.2vw;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #6f45e5;
+}
+
+.theme-colors .colorpicker:nth-child(2)::after {
+  background-color: #72cc50;
+}
+
+.theme-colors .colorpicker:nth-child(3)::after {
+  background-color: #ed810e;
+}
+
+.theme-colors .colorpicker:nth-child(4)::after {
+  background-color: #1284a3;
 }
