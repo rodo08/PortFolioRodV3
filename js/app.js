@@ -61,3 +61,10 @@ colorPicker[3].addEventListener("click", () => {
   document.body.classList.add("color4");
   document.body.classList.remove("color1", "color2", "color3");
 });
+
+//toggle menu responsive
+const listItems = document.querySelector("nav ul");
+
+const listItems = () => {
+  listItems.classList.toggle("listItems");
+};

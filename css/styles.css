@@ -11,3 +11,8 @@
 @import url("./pages/contact/contact.css");
 @import url("./functionalities/scrollToTop.css");
 @import url("./functionalities/themeColors.css");
+
+/* queries */
+
+@import url("./queries/home.css");
+@import url("./queries/aboutSection.css");

@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-around;
+    height: 40px;
+    line-height: 40px;
+    background-color: #00172d;
+  }
+
+  nav .logo {
+    font-size: 3vw;
+    z-index: 999;
+  }
+
+  .logo span:last-child {
+    color: #fff;
+  }
+
+  nav ul {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 40px);
+    top: 40px;
+    background-color: var(--light);
+  }
+
+  ul li::before {
+    content: none;
+  }
+
+  ul li:hover::before {
+    content: none;
+  }
+
+  ul li a {
+    font-size: 4em;
+    padding: 3vw 5vw;
+    color: var(--dark);
+  }
+
+  ul li a:hover {
+    transform: translateY(-30px);
+  }
+
+  ul li::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--light);
+    transition: 0.3s 0.2s ease;
+  }
+
+  ul li:hover::before {
+    width: 100%;
+    left: 0;
+    background-color: #000;
+  }
+
+  .toggle {
+    cursor: pointer;
+    position: relative;
+  }
+
+  .toggle i {
+    font-size: 3.2vw;
+  }
+
+  nav.active {
+    background-color: #00172d;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  nav.active .logo span {
+    color: #fff;
+  }
+
+  nav.active ul li a:hover {
+    transform: translateY(0);
+  }
+
+  nav.active .toggle i.uil {
+    color: #fff;
+  }
+
+  .toggle .uil-bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    font-size: 3.2vw;
+    left: 5vw;
+  }
+
+  nav ul.listItems {
+    display: flex;
+  }
+
+  nav ul.listItems li a {
+    color: var(--dark);
+  }
+
+  /*common styles all sections*/
+  .page {
+    height: 80vh;
+  }
+
+  .page .heading {
+    font-size: 4vw;
+    padding-top: 12vw;
+  }
+
+  .page .heading span {
+    color: var(--primary);
+    font-weight: 700;
+  }
+
+  .page .heading::after {
+    width: 15%;
+  }
+
+  .page .wrapper {
+    min-height: 0vw;
+  }
+
+  /* about section  */
+}

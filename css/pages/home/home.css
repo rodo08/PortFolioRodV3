@@ -166,14 +166,14 @@ ul li:hover::before {
   background-color: transparent;
 }
 
-.textcontainer .hireme {
+.textcontainer a.hireme {
   margin-left: 30px;
   color: var(--dark);
   background: var(--light);
   border: 2px solid var(--primary);
 }
 
-.textcontainer .hireme:hover {
+.textcontainer a.hireme:hover {
   margin-left: 30px;
   color: #fff;
   background: var(--primary);
