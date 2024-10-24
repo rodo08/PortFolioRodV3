@@ -91,3 +91,30 @@ form .entrybox {
   cursor: pointer;
   transition: 0.3s ease;
 }
+
+.submit i {
+  position: relative;
+  left: -10px;
+  opacity: 0;
+  transition: 0.2s 0.1s;
+}
+
+.submit:hover i {
+  opacity: 1;
+  left: 10px;
+}
+
+.submit:hover {
+  letter-spacing: 2px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: var(--primary);
+  text-align: center;
+  font-size: 1.2vw;
+  padding: 10px 0;
+}
