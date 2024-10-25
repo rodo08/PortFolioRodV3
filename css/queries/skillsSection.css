@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+  .skills .wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  .technicalskills,
+  .codingskills {
+    width: 100%;
+  }
+
+  .skills .wrapper h2 {
+    font-size: 2.6vw;
+    font-weight: left;
+    margin-top: 3vw;
+  }
+
+  .technicalskills .skillbox {
+    position: relative;
+  }
+
+  .technicalskills .skillbox div {
+    margin: 0 8vw;
+    margin-top: 5vw;
+  }
+
+  .technicalskills .skillbox div span {
+    margin-top: 1vw;
+    width: 80%;
+    height: 2.2vw;
+  }
+
+  .technicalskills .skillbox div .text {
+    display: inline;
+    font-size: 2.3vw;
+  }
+
+  .codingskills .skillbox {
+    min-height: 0;
+    gap: 4vw 8vw;
+    padding: 15vw 20vw;
+    scale: 1.6;
+  }
+}

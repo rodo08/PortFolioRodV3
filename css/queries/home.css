@@ -107,7 +107,7 @@
 
   /*common styles all sections*/
   .page {
-    height: 80vh;
+    height: fit-content !important;
   }
 
   .page .heading {

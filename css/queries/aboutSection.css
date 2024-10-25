@@ -108,7 +108,7 @@
   }
 
   .about {
-    min-height: 100vw;
+    height: fit-content;
   }
 
   .userdetails {
