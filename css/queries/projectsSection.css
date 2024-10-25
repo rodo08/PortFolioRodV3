@@ -1,35 +1,37 @@
-.project .wrapper {
-  grid-template-columns: repeat(2, 42vw);
-  grid-template-rows: repeat(3, 28vw);
-  gap: 3vw 1.5vw;
-  margin-top: 12vw;
-}
+@media screen and (max-width: 768px) {
+  .project .wrapper {
+    grid-template-columns: repeat(2, 42vw);
+    grid-template-rows: repeat(3, 28vw);
+    gap: 3vw 1.5vw;
+    margin-top: 12vw;
+  }
 
-.boxes h2 {
-  font-size: 2.2vw;
-}
+  .boxes h2 {
+    font-size: 2.2vw;
+  }
 
-.hoverbox i {
-  font-size: 8vw;
-}
+  .hoverbox i {
+    font-size: 8vw;
+  }
 
-.hoverbox h1 {
-  font-size: 3.2vw;
-}
+  .hoverbox h1 {
+    font-size: 3.2vw;
+  }
 
-.hoverbox a {
-  font-size: 2.6vw;
-  padding: 0.4vw 1.4vw;
-}
+  .hoverbox a {
+    font-size: 2.6vw;
+    padding: 0.4vw 1.4vw;
+  }
 
-.hoverbox a i {
-  font-size: 2.2vw;
-}
+  .hoverbox a i {
+    font-size: 2.2vw;
+  }
 
-.page .heading {
-  font-size: 4vw;
-}
+  .page .heading {
+    font-size: 4vw;
+  }
 
-.details p {
-  font-size: 0.8rem !important;
+  .details p {
+    font-size: 0.8rem !important;
+  }
 }

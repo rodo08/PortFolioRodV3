@@ -32,13 +32,12 @@
 
   .textcontainer p {
     width: 90%;
-
     margin-top: 1.5vw;
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 
   .textcontainer a {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 
   .profile {

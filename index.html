@@ -4,48 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Rodrigo Rosales Moya > Web Developer & Designer</title>
 </head>
 
 <body>
     <div class="container">
         <nav>
-            <a href="#" class="logo" onclick="listItems()">
+            <a href="#" class="logo" onclick="toggleMenu()">
                 <span>PORT</span><span>folio</span>
             </a>
             <ul>
-                <li>
-                    <a href="#home" onclick="listItems()">
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#about" onclick="listItems()">
-                        <span>About</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#project" onclick="listItems()">
-                        <span>Projects</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#skills" onclick="listItems()">
-                        <span>Skills</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#contact" onclick="listItems()">
-                        <span>Contact</span>
-                    </a>
-                </li>
+                <li><a href="#home" onclick="toggleMenu()"><span>Home</span></a></li>
+                <li><a href="#about" onclick="toggleMenu()"><span>About</span></a></li>
+                <li><a href="#project" onclick="toggleMenu()"><span>Projects</span></a></li>
+                <li><a href="#skills" onclick="toggleMenu()"><span>Skills</span></a></li>
+                <li><a href="#contact" onclick="toggleMenu()"><span>Contact</span></a></li>
             </ul>
             <div class="toggle">
                 <i class="uil uil-moon"></i>
                 <i class="uil uil-sun"></i>
-                <i class="uil uil-bars" onclick="listItems()"></i>
+                <i class="uil uil-bars" onclick="toggleMenu()"></i>
             </div>
         </nav>
 
