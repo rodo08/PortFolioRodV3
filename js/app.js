@@ -63,8 +63,8 @@ colorPicker[3].addEventListener("click", () => {
 });
 
 //toggle menu responsive
-const listItems = document.querySelector("nav ul");
+// const listItems = document.querySelector("nav ul");
 
-const listItems = () => {
-  listItems.classList.toggle("listItems");
-};
+// const listItems = () => {
+//   listItems.classList.toggle("listItems");
+// };
