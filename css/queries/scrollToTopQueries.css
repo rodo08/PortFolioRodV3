@@ -1,0 +1,11 @@
+@media screen {
+  .scrolltotop {
+    position: fixed;
+    bottom: 10vw;
+    right: 3vw;
+  }
+
+  .scrolltotop a {
+    border-radius: 5px;
+  }
+}

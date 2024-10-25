@@ -61,3 +61,19 @@ colorPicker[3].addEventListener("click", () => {
   document.body.classList.add("color4");
   document.body.classList.remove("color1", "color2", "color3");
 });
+
+//toggle menu responsive
+const listItems = document.querySelector("nav ul");
+
+const toggleMenu = () => {
+  listItems.classList.toggle("listItems");
+};
+
+//reveal effect
+ScrollReveal().reveal(".reveal", {
+  interval: 100,
+  origin: "bottom",
+  distance: "100px",
+  scale: 0.85,
+  delay: 300,
+});

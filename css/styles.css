@@ -11,3 +11,13 @@
 @import url("./pages/contact/contact.css");
 @import url("./functionalities/scrollToTop.css");
 @import url("./functionalities/themeColors.css");
+
+/* queries */
+
+@import url("./queries/home.css");
+@import url("./queries/aboutSection.css");
+@import url("./queries/projectsSection.css");
+@import url("./queries/skillsSection.css");
+@import url("./queries/contactSection.css");
+@import url("./queries/scrollToTopQueries.css");
+@import url("./queries/themeColorsQueries.css");

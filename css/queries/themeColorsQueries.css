@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .theme-colors .colorpicker {
+    scale: 2;
+    transform: rotate(-25deg) translate(6vw, 0vw);
+    border-width: 1px;
+  }
+}
